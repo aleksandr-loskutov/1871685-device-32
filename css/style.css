@@ -1,0 +1,49 @@
+body{
+  width: 1140px;
+  background-color: #fff;
+}
+.page-header{
+  background-color: #FFE17F;
+}
+.services{
+  background-color: #F0F0F0;
+}
+.visually-hidden{
+  display: none;
+}
+.page-categories-item{
+  background-color: #FFE17F;
+}
+.slide2, .slide3 {
+  display: none;
+}
+.order-delivery-container{
+  display: block;
+  background-color: #F0F0F0;
+  width: 1160px;
+  height: 100px;
+}
+.order-delivery-container .delivery-icon{
+  display: inline-block;
+  background-color: #FFE17F;
+  width: 125px;
+  height: 100px;
+}
+.subscription{
+  background-color: #F0F0F0;
+}
+footer{
+  background-color: #444444;
+}
+.sorting-container{
+  background-color: #EBEBEB;
+}
+.filters{
+  background-color: #EBEBEB;
+}
+.filter-title{
+  background-color: #DCDCDC;
+}
+.pagination-container{
+  background-color: #EBEBEB;
+}

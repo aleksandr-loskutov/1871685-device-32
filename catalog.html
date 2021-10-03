@@ -2,13 +2,20 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <link href="./css/style.css" rel="stylesheet" />
     <title>HTML Academy: Девайс</title>
   </head>
 
   <body>
     <header class="page-header">
       <div class="header-left-container">
-        <img class="header-logo" src="" alt="логотип магазина Девайс" />
+        <img
+          class="header-logo"
+          src="./img/logo.svg"
+          width="145"
+          height="36"
+          alt="логотип магазина Девайс"
+        />
         <form
           method="get"
           action="https://echo.htmlacademy.ru"
@@ -17,7 +24,9 @@
           <input class="header-search" placeholder="Поиск по сайту" />
         </form>
         <div class="header-categories">
-          <a href="/catalog.html"><span class="header-categories-title">Каталог товаров</span></a>
+          <a href="/catalog.html"
+            ><span class="header-categories-title">Каталог товаров</span></a
+          >
           <nav class="header-categories-navigation">
             <ul class="header-categories-navigation-list">
               <li class="header-categories-navigation-item">
@@ -57,17 +66,13 @@
       <div class="right-container">
         <nav class="user-navigation">
           <ul class="user-navigation-list">
-            <li class="user-navigation-item user">
-              <a class="user-navigation-link" href="#">Коля Петухов</a>
+            <li class="user-navigation-item">
+              <a class="user-navigation-link" href="#">Войти</a>
             </li>
-            <li class="user-navigation-item quit">
-              <a class="user-navigation-link" href="#">Выйти</a>
-            </li>
-            <li class="user-navigation-item compare">
+            <li class="user-navigation-item">
               <a class="user-navigation-link" href="#">Сравнить</a>
             </li>
-            <li class="user-navigation-item cart">
-              <span class="cart-amount">2</span>
+            <li class="user-navigation-item">
               <a class="user-navigation-link" href="#">Корзина</a>
             </li>
           </ul>
@@ -103,6 +108,7 @@
       <div class="catalog-container">
         <section class="filters">
           <h2 class="visually-hidden">Фильтры</h2>
+          <div class="filter-title"><span>Фильтр</span></div>
           <form action="https://echo.htmlacademy.ru/" method="post">
             <div class="filter-top">
               <fieldset class="filter-price">
@@ -282,7 +288,12 @@
                 <button class="button-catalog">подробнее</button>
               </div>
             </div>
-            <img alt="" src="" width="360" height="380" />
+            <img
+              alt="Любительская селфи-палка"
+              src="./img/product-1.jpg"
+              width="360"
+              height="380"
+            />
             <div class="catalog-product-description">
               <a href="#"
                 ><p class="catalog-product-name">Любительская селфи-палка</p></a
@@ -296,7 +307,12 @@
                 <button class="button-catalog">подробнее</button>
               </div>
             </div>
-            <img alt="" src="" width="360" height="380" />
+            <img
+              alt="Профессиональная селфи-палка "
+              src="./img/product-2.jpg"
+              width="360"
+              height="380"
+            />
 
             <div class="catalog-product-description">
               <a href="#"
@@ -314,6 +330,12 @@
                 <button class="button-catalog">подробнее</button>
               </div>
             </div>
+            <img
+              alt="Непотопляемая селфи-палка"
+              src="./img/product-3.jpg"
+              width="360"
+              height="380"
+            />
             <div class="catalog-product-description">
               <a href="#"
                 ><p class="catalog-product-name">
@@ -331,7 +353,12 @@
                 <button class="button-catalog">подробнее</button>
               </div>
             </div>
-            <img alt="" src="" width="360" height="380" />
+            <img
+              alt="Селфи-палка «Следуй за мной»"
+              src="./img/product-4.jpg"
+              width="360"
+              height="380"
+            />
             <div class="catalog-product-description">
               <a href="#"
                 ><p class="catalog-product-name">
@@ -361,7 +388,13 @@
       </div>
     </main>
     <footer>
-      <img class="footer-logo" src="" alt="логотип магазина Девайс" />
+      <img
+        class="footer-logo"
+        src="./img/logo-footer.svg"
+        alt="логотип магазина Девайс"
+        height="36"
+        width="145"
+      />
       <div class="footer-info">
         <p>Санкт-Петербург, набережная<br />реки Карповки, 5, литера П.</p>
         <ul class="footer-navigation">
@@ -400,7 +433,12 @@
           </ul>
         </div>
         <div class="dev-logo">
-          <img src="" alt="логотип разработчика - html academy" />
+          <img
+            src="./img/logo-htmlacademy.svg"
+            width="115"
+            height="34"
+            alt="логотип разработчика - html academy"
+          />
         </div>
       </div>
     </footer>
