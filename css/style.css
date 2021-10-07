@@ -246,11 +246,10 @@ footer .navigation-item-link, a{
   display: flex;
 }
 .socials-list-item{
-
   width: 40px;
   height: 40px;
   border-radius: 50%;
-background-color: rgba(255, 255, 255, 0.3)
+  background-color: rgba(255, 255, 255, 0.3)
 }
 .facebook{
   background: url('/img/icon-facebook.svg') no-repeat center;
