@@ -55,6 +55,9 @@ input[type="search"],[type="email"] {
   font-size: 16px;
   line-height: 18px;
 }
+header a{
+  color:black;
+}
 .slider-title{
   font-family: "Raleway", sans-serif;
   font-size: 50px;
@@ -90,6 +93,13 @@ input[type="search"],[type="email"] {
 }
 .services{
   background-color: #F0F0F0;
+}
+h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: black;
 }
 h2, h3{
   font-family: "Raleway", sans-serif;
@@ -150,8 +160,26 @@ footer{
 .filters{
   background-color: #EBEBEB;
 }
-.filter-title{
+.filter-title, .sorting-label, .download-more{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: black;
   background-color: #DCDCDC;
+}
+.select-control, .filter-checkbox-products, .filter-radio-list{
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+.filter-legend{
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: black;
 }
 .pagination-container{
   background-color: #EBEBEB;
@@ -164,4 +192,74 @@ footer{
 .footer-info p{
   font-size: 16px;
   line-height: 19px;
+}
+
+.breadcrumbs{
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+  opacity: 0.6
+}
+.breadcrumbs-item-link{
+  color:#444444;
+}
+.catalog-product-name{
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: black;
+}
+.catalog-product-price{
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #444444;
+}
+
+.pagination a{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: black;
+}
+.pagination-list a{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.3;
+  color: #444444;
+}
+
+.telephone{
+  font-size: 16px;
+  line-height: 30px;
+}
+footer .navigation-item-link, a{
+  color: white;
+}
+
+.socials-list{
+  display: flex;
+}
+.socials-list-item{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.3)
+}
+.facebook{
+  background: url('/img/icon-facebook.svg') no-repeat center;
+}
+
+.instagram{
+  background:  url('/img/icon-instagram.svg') no-repeat center;
+}
+
+.twitter{
+  background: url('/img/icon-twitter.svg') no-repeat;
 }
