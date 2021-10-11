@@ -1,21 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8"/>
-  <link href="./css/style.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
   <title>HTML Academy: Девайс</title>
 </head>
 
-<body>
+<body class="page-body">
 <header class="page-header">
-  <div class="header-left-container">
-    <img
-      alt="логотип магазина Девайс"
-      class="header-logo"
-      height="36"
-      src="./img/logo.svg"
-      width="145"
-    />
+  <div class="header-logo">
+    <a href="/"><img alt="логотип магазина Девайс" src="img/logo.svg" width="145" height="36"></a>
+  </div>
+  <div class="header-active-container">
+    <div class="search-container">
     <form
       action="https://echo.htmlacademy.ru"
       class="header-search-form"
@@ -27,74 +24,72 @@
         type="search"
       />
     </form>
-    <div class="header-categories">
-      <a href="catalog.html">
-        <span class="page-navigation">Каталог товаров</span>
-      </a>
-      <nav class="header-categories-navigation">
-        <ul class="header-categories-navigation-list">
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Виртуальная реальность
-            </a>
-          </li>
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Моноподы для селфи
-            </a>
-          </li>
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Экшн-камеры
-            </a>
-          </li>
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Фитнес-браслеты
-            </a>
-          </li>
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Умные часы
-            </a>
-          </li>
-          <li class="header-categories-navigation-item">
-            <a class="header-categories-navigation-link" href="#">
-              Квадрокоптеры
-            </a>
-          </li>
-        </ul>
-      </nav>
+    </div>
+    <div class="user-navigation">
+      <div class="user-navigation-link link-user"><a href=""><img alt="войти" src="img/icon-user.svg" width="13" height="12">Войти</a></div>
+      <div class="user-navigation-link link-compare"><a href=""><img alt="сравнить товар" src="img/icon-compare.svg" width="10" height="12">Сравнить</a></div>
+      <div class="user-navigation-link link-cart"><a href=""><img alt="корзина" src="img/icon-cart.svg" width="16" height="14">Корзина</a></div>
     </div>
   </div>
-  <div class="right-container">
-    <nav class="user-navigation">
-      <ul class="user-navigation-list">
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">Войти</a>
+  <nav class="header-navigation">
+    <div class="header-navigation-wrapper">
+    <a href="catalog.html">
+      <span class="page-navigation">Каталог товаров</span>
+    </a>
+      <img alt="крест открытия меню" src="img/icon-open.svg" width="16" height="16">
+      <div class="header-categories-submenu">
+      <ul class="submenu-list">
+        <li>
+          <a href="catalog.html">
+            Виртуальная реальность
+          </a>
         </li>
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">Сравнить</a>
+        <li>
+          <a href="catalog.html">
+            Моноподы для селфи
+          </a>
         </li>
-        <li class="user-navigation-item">
-          <a class="user-navigation-link" href="#">Корзина</a>
+        <li>
+          <a href="catalog.html">
+            Экшн-камеры
+          </a>
         </li>
       </ul>
-      <ul class="page-navigation">
-        <li class="page-navigation-item">
-          <a class="navigation-item-link" href="#">Доставка</a>
+        <ul class="submenu-list">
+        <li>
+          <a href="catalog.html">
+            Фитнес-браслеты
+          </a>
         </li>
-        <li class="page-navigation-item">
-          <a class="navigation-item-link" href="#">Гарантия</a>
+        <li>
+          <a href="catalog.html">
+            Умные часы
+          </a>
         </li>
-        <li class="page-navigation-item">
-          <a class="navigation-item-link" href="#">Контакты</a>
+        </ul>
+        <ul class="submenu-list">
+        <li>
+          <a href="catalog.html">
+            Квадрокоптеры
+          </a>
         </li>
       </ul>
-    </nav>
-  </div>
+    </div>
+    </div>
+    <ul class="header-page-links page-navigation">
+      <li class="page-navigation-item">
+        <a href="#">Доставка</a>
+      </li>
+      <li class="page-navigation-item">
+        <a href="#">Гарантия</a>
+      </li>
+      <li class="page-navigation-item">
+        <a href="#">Контакты</a>
+      </li>
+    </ul>
+  </nav>
 </header>
-<main class="main-index">
+<main class="main-container main-index">
   <h1 class="visually-hidden">Магазин «Девайс»</h1>
   <section class="main-slider">
     <div class="slider-container">
@@ -103,7 +98,7 @@
           alt="квадрокоптер с лазером"
           class="slider-image"
           height="560"
-          src="./img/slider-1.png"
+          src="img/slider-1.png"
           width="560"
         />
         <h2 class="slider-title">Порхает как бабочка, жалит как пчела!</h2>
@@ -128,7 +123,7 @@
           alt="фитнес-браслет"
           class="slider-image"
           height="560"
-          src="./img/slider-2.png"
+          src="img/slider-2.png"
           width="560"
         />
         <h2 class="slider-title">Худеем правильно!</h2>
@@ -151,7 +146,7 @@
           alt="палка для селфи"
           class="slider-image"
           height="560"
-          src="./img/slider-3.png"
+          src="img/slider-3.png"
           width="560"
         />
         <h2 class="slider-title">Делай селфи, как Бен Стиллер!</h2>
@@ -223,7 +218,7 @@
           <img
             alt="Виртуальная реальность"
             height="55"
-            src="./img/main-category-1.svg"
+            src="img/main-category-1.svg"
             width="97"
           />
         </a>
@@ -234,7 +229,7 @@
           <img
             alt="Моноподы для селфи"
             height="117"
-            src="./img/main-category-2.svg"
+            src="img/main-category-2.svg"
             width="86"
           />
         </a>
@@ -245,7 +240,7 @@
           <img
             alt="Экшн-камеры"
             height="87"
-            src="./img/main-category-3.svg"
+            src="img/main-category-3.svg"
             width="71"
           />
         </a>
@@ -256,7 +251,7 @@
           <img
             alt="Фитнес-браслеты"
             height="65"
-            src="./img/main-category-4.svg"
+            src="img/main-category-4.svg"
             width="107"
           />
         </a>
@@ -267,7 +262,7 @@
           <img
             alt="Умные часы"
             height="98"
-            src="./img/main-category-5.svg"
+            src="img/main-category-5.svg"
             width="56"
           />
         </a>
@@ -278,7 +273,7 @@
           <img
             alt="Квадрокоптеры"
             height="69"
-            src="./img/main-category-6.svg"
+            src="img/main-category-6.svg"
             width="132"
           />
         </a>
@@ -311,7 +306,7 @@
           alt="курьер"
           class="info-slide-image"
           height="164"
-          src="./img/delivery.svg"
+          src="img/delivery.svg"
           width="136"
         />
       </li>
@@ -327,7 +322,7 @@
           alt="гарантия"
           class="info-slide-image"
           height="195"
-          src="./img/warranty.svg"
+          src="img/warranty.svg"
           width="171"
         />
       </li>
@@ -342,7 +337,7 @@
           alt="кредит"
           class="info-slide-image"
           height="188"
-          src="./img/credit.svg"
+          src="img/credit.svg"
           width="156"
         />
         <button class="button">Отправить заявку</button>
@@ -355,7 +350,7 @@
         <img
           alt="грузовик"
           height="31"
-          src="./img/icon-delivery.svg"
+          src="img/icon-delivery.svg"
           width="47"
         />
       </div>
@@ -415,12 +410,12 @@
     </form>
   </section>
 </main>
-<footer>
+<footer class="footer-container">
   <img
     alt="логотип магазина Девайс"
     class="footer-logo"
     height="36"
-    src="./img/logo-footer.svg"
+    src="img/logo-footer.svg"
     width="145"
   />
   <div class="footer-info">
@@ -464,7 +459,7 @@
       <img
         alt="логотип разработчика - html academy"
         height="34"
-        src="./img/logo-htmlacademy.svg"
+        src="img/logo-htmlacademy.svg"
         width="115"
       />
     </div>
