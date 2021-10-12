@@ -31,7 +31,8 @@
   height: 100%;
 }
 .page-body{
-  margin: 0;
+  width: 1440px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -49,6 +50,7 @@
   margin: 0 auto;
 }
 .main-container {
+  width: inherit;
   flex-grow: 1;
   margin: 0 auto;
 }
@@ -112,6 +114,7 @@ header a{
 }
 .main-slider{
   width: 1160px;
+  margin: 0 auto;
 }
 .slider-container{
   display: flex;
@@ -144,6 +147,14 @@ header a{
   font-size: 16px;
   line-height: 30px;
 }
+.page-categories{
+  width: 1160px;
+  margin: 0 auto;
+}
+.page-categories-list{
+  display: flex;
+  list-style-type: none;
+}
 .page-categories-text{
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -153,7 +164,27 @@ header a{
   color: black;
 }
 .services{
+  width:inherit;
   background-color: #F0F0F0;
+}
+.services-wrapper{
+  display: flex;
+  width: 1094px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.services-list{
+  width: 280px;
+  list-style-type: none;
+}
+.services-info{
+  width: 814px;
+}
+.services-slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 h1{
   font-family: "Raleway", sans-serif;
@@ -189,8 +220,17 @@ h4{
   line-height: 30px;
 }
 
-.page-categories-item{
+.page-categories-item-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #FFE17F;
+  width: 160px;
+  height: 160px;
+}
+.page-categories-item{
+  width: 160px;
+ margin-right: 40px;
 }
 .slide2, .slide3 {
   display: none;

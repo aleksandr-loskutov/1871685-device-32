@@ -226,7 +226,7 @@
   <section class="page-categories">
     <ul class="page-categories-list">
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Виртуальная реальность"
             height="55"
@@ -237,7 +237,7 @@
         <span class="page-categories-text">Виртуальная реальность</span>
       </li>
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Моноподы для селфи"
             height="117"
@@ -248,7 +248,7 @@
         <span class="page-categories-text">Моноподы для селфи</span>
       </li>
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Экшн-камеры"
             height="87"
@@ -259,7 +259,7 @@
         <span class="page-categories-text">Экшн-камеры</span>
       </li>
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Фитнес-браслеты"
             height="65"
@@ -270,7 +270,7 @@
         <span class="page-categories-text">Фитнес-браслеты</span>
       </li>
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Умные часы"
             height="98"
@@ -281,7 +281,7 @@
         <span class="page-categories-text">Умные часы</span>
       </li>
       <li class="page-categories-item">
-        <a href="#">
+        <a class="page-categories-item-link" href="catalog.html">
           <img
             alt="Квадрокоптеры"
             height="69"
@@ -294,26 +294,30 @@
     </ul>
   </section>
   <section class="services">
+    <div class="services-wrapper">
     <h2 class="visually-hidden">Сервисы</h2>
     <ul class="services-list">
       <li class="services-list-item">
-        <button class="active" disabled>Доставка</button>
+        <button class="button active" disabled>Доставка</button>
       </li>
       <li class="services-list-item">
-        <button class="">Гарантия</button>
+        <button class="button">Гарантия</button>
       </li>
       <li class="services-list-item">
-        <button class="">Кредит</button>
+        <button class="button">Кредит</button>
       </li>
     </ul>
-    <ul class="services-info">
-      <li class="services slide1">
+    <div class="services-info">
+      <div class="services-slide slide1">
+        <div class="services-slide-text">
         <h3>Доставка</h3>
         <p>
           Мы с удовольствием доставим ваш товар прямо<br/>
           к вашему подъезду совершенно бесплатно! Ведь<br/>
           мы неплохо заработаем, поднимая его на ваш этаж.
         </p>
+      </div>
+        <div class="services-slide-image">
         <img
           alt="курьер"
           class="info-slide-image"
@@ -321,15 +325,18 @@
           src="img/delivery.svg"
           width="136"
         />
-      </li>
-
-      <li class="services slide2">
+        </div>
+      </div>
+      <div class="services-slide slide2 visually-hidden">
+        <div class="services-slide-text">
         <h3>Гарантия</h3>
         <p>
           Если из-за возгорания купленного у нас товара у вас<br/>
           сгорит дом — не переживайте, мы выдадим вам новый.<br/>
           Товар, не дом, конечно же.
         </p>
+        </div>
+        <div class="services-slide-image">
         <img
           alt="гарантия"
           class="info-slide-image"
@@ -337,14 +344,18 @@
           src="img/warranty.svg"
           width="171"
         />
-      </li>
-      <li class="services slide3">
+        </div>
+      </div>
+      <div class="services-slide slide3 visually-hidden">
+        <div class="services-slide-text">
         <h3>Кредит</h3>
         <p>
           Залезть в долговую яму стало проще! Кредитные<br/>
           консультанты подберут для вас наиболее выгодные<br/>
           условия кредита. Выгодные для банка, разумеется.
         </p>
+        </div>
+        <div class="services-slide-image">
         <img
           alt="кредит"
           class="info-slide-image"
@@ -352,9 +363,11 @@
           src="img/credit.svg"
           width="156"
         />
+        </div>
         <button class="button">Отправить заявку</button>
-      </li>
-    </ul>
+      </div>
+    </div>
+    </div>
   </section>
   <section class="company-info">
     <div class="order-delivery-container">
