@@ -66,9 +66,7 @@ body {
     margin: 0 auto;
 }
 
-.page-header-main {
-    padding-bottom: 2px;
-}
+
 
 .header-logo {
     position: relative;
@@ -94,7 +92,9 @@ body {
             #ffe17f
     );
 }
-
+.page-header-main {
+  padding-bottom: 2px;
+}
 .header-active-container {
     display: grid;
     grid-template-columns: 1fr 535px;
@@ -274,7 +274,7 @@ body {
 }
 
 .navigation-user-item {
-    margin-right: 25px;
+    margin-right: 28px;
 }
 
 .navigation-user-link {
@@ -643,7 +643,7 @@ body {
 }
 
 .main-navigation-item:last-child {
-    margin-right: 0;
+    margin-right: -5px;
 }
 
 .main-navigation-item-contact {
@@ -857,7 +857,7 @@ body {
 .product-slider {
     position: relative;
 
-    margin-bottom: 61px;
+    margin-bottom: 60px;
 
     color: #444;
 }
@@ -967,7 +967,7 @@ body {
 .slider-main-link {
     box-sizing: border-box;
     width: 220px;
-    margin-bottom: 55px;
+    margin-bottom: 53px;
 
     background-image: linear-gradient(
             to bottom,
@@ -1225,9 +1225,9 @@ body {
 
 .services-wrapper {
     display: flex;
-    width: 1094px;
 
-}
+
+  }
 
 .services-wrapper > input {
     display: none;
@@ -1779,7 +1779,7 @@ body {
 .subscription-text {
     width: 560px;
     margin: 0;
-    padding: 0;
+    padding: 10px 0 0 0;
 }
 
 .subscription-form {
@@ -1878,7 +1878,7 @@ body {
 .footer-logo {
     display: block;
 
-    margin-bottom: 35px;
+    margin-bottom: 22px;
 
     text-decoration: none;
 }
@@ -1895,14 +1895,15 @@ body {
 .footer-wrapper-navigation {
     align-items: center;
 
-    margin-bottom: 50px;
+    margin-bottom: 51px;
 }
 
 .footer-address {
-    flex-basis: 238px;
+    flex-basis: 244px;
     flex-grow: 1;
 
     padding-right: 20px;
+    padding-top: 4px;
 }
 
 .footer-address-text {
@@ -2791,7 +2792,7 @@ a.breadcrumbs-link:active::before {
 }
 
 .products-content {
-    padding: 69px 0 77px 70px;
+    padding: 69px 0 79px 70px;
 }
 
 .products-list {
